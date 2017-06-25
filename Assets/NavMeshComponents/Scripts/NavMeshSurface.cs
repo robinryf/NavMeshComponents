@@ -203,7 +203,7 @@ namespace UnityEngine.AI
                 s_NavMeshSurfaces[i].UpdateDataIfTransformChanged();
         }
 
-        void AppendModifierVolumes(ref List<NavMeshBuildSource> sources)
+        protected void AppendModifierVolumes(ref List<NavMeshBuildSource> sources)
         {
             // Modifiers
             List<NavMeshModifierVolume> modifiers;
@@ -236,7 +236,7 @@ namespace UnityEngine.AI
             }
         }
 
-        List<NavMeshBuildSource> CollectSources()
+        protected virtual List<NavMeshBuildSource> CollectSources()
         {
             var sources = new List<NavMeshBuildSource>();
             var markups = new List<NavMeshBuildMarkup>();
