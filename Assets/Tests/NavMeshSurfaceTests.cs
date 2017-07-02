@@ -1,4 +1,4 @@
-#if UNITY_EDITOR || UNITY_STANDALONE
+#if UNITY_EDITOR
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.TestTools;
