@@ -1,9 +1,9 @@
 #if UNITY_EDITOR
 using UnityEngine;
 using UnityEngine.AI;
-using UnityEngine.TestTools;
-using NUnit.Framework;
 using System.Collections;
+using NUnit.Framework;
+using UnityEngine.TestTools;
 
 public class NavMeshSurfaceAgentTests
 {
