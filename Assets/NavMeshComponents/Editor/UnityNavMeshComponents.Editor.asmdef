@@ -1,0 +1,12 @@
+{
+    "name": "UnityNavMeshComponents.Editor",
+    "references": [
+        "FishmanNavigation"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
